@@ -27,4 +27,3 @@ class AnimationCard extends StatelessWidget {
     );
   }
 }
-

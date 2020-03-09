@@ -11,3 +11,7 @@
 
 * Update CHANGELOG
 * Release 1.0.1
+
+## 1.0.2
+
+* Flutter format

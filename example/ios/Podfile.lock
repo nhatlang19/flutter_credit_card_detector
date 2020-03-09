@@ -1,0 +1,22 @@
+PODS:
+  - credit_card_detector (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - credit_card_detector (from `.symlinks/plugins/credit_card_detector/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  credit_card_detector:
+    :path: ".symlinks/plugins/credit_card_detector/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  credit_card_detector: 09cd1e279ec56f79c6f9867a85dbde9ae4d1376f
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.9.0.beta.2

@@ -28,6 +28,10 @@ class Example03State extends State<Example03> {
         amex(),
         master(),
         discover(),
+        dinersClub(),
+        jcb(),
+        maestro(),
+        rupay(),
       ],
     );
   }
@@ -65,6 +69,46 @@ class Example03State extends State<Example03> {
   Widget discover() {
     return CreditCardWidget(
       cardNumber: '6011 4040 4040 4040',
+      expiryDate: '11/11',
+      cardHolderName: 'Noctis Lucis Caelum',
+      cvvCode: '1234',
+      showBackView: true,
+    );
+  }
+
+  Widget dinersClub() {
+    return CreditCardWidget(
+      cardNumber: '3000 4040 4040 4040',
+      expiryDate: '11/11',
+      cardHolderName: 'Noctis Lucis Caelum',
+      cvvCode: '1234',
+      showBackView: true,
+    );
+  }
+
+  Widget jcb() {
+    return CreditCardWidget(
+      cardNumber: '2131 4040 4040 4040',
+      expiryDate: '11/11',
+      cardHolderName: 'Noctis Lucis Caelum',
+      cvvCode: '1234',
+      showBackView: true,
+    );
+  }
+
+  Widget maestro() {
+    return CreditCardWidget(
+      cardNumber: '5057 4040 4040 4040',
+      expiryDate: '11/11',
+      cardHolderName: 'Noctis Lucis Caelum',
+      cvvCode: '1234',
+      showBackView: true,
+    );
+  }
+
+  Widget rupay() {
+    return CreditCardWidget(
+      cardNumber: '6021 4040 4040 4040',
       expiryDate: '11/11',
       cardHolderName: 'Noctis Lucis Caelum',
       cvvCode: '1234',

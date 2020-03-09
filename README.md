@@ -1,14 +1,41 @@
 # credit_card_detector
 
-A new flutter plugin project.
 
-## Getting Started
+[![pub package](https://img.shields.io/pub/v/toggle_bar.svg)](https://pub.dartlang.org/packages/toggle_bar_button)
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+A dart package to display a horizontal bar of customisable toggle tabs. Supports iOS and Android.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+<img src="https://raw.githubusercontent.com/nhatlang19/credit_card_detector/master/preview/demo.gif" height="512">
+
+## Installation
+Depend on it.
+``` dart
+dependencies:
+  credit_card_detector: ^1.0.0
+```
+
+## Usage
+``` dart
+import 'package:credit_card_detector/credit_card_detector.dart';
+
+CreditCardWidget(
+  cardNumber: '4040 4040 4040 4040',
+  expiryDate: '11/11',
+  cardHolderName: 'Noctis Lucis Caelum',
+  cvvCode: '1234',
+  showBackView: false,
+)
+```
+
+## Parameters
+```dart 
+@required final String cardNumber;
+@required final String expiryDate;
+@required final String cardHolderName;
+@required final String cvvCode;
+final TextStyle textStyle;
+final Color cardBgColor;
+final bool showBackView;
+final Duration animationDuration;
+final double height;
+final double width;

@@ -31,7 +31,6 @@ class Example01State extends State<Example01> {
             cardHolderName: cardHolderName,
             cvvCode: cvvCode,
             showBackView: isCvvFocused,
-            cardBgColor: Colors.black,
           ),
           Expanded(
             child: SingleChildScrollView(

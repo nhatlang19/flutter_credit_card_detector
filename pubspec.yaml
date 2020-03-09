@@ -1,7 +1,6 @@
 name: credit_card_detector
 description: A flutter package to create a Credit Card widget in your application.
-version: 1.0.0
-author: Luan Nguyen
+version: 1.0.1
 homepage: https://github.com/nhatlang19/flutter_credit_card_detector
 
 environment:

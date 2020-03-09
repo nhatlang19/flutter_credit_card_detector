@@ -1,11 +1,11 @@
 # credit_card_detector
 
 
-[![pub package](https://img.shields.io/pub/v/toggle_bar.svg)](https://pub.dartlang.org/packages/toggle_bar_button)
+[![pub package](https://img.shields.io/pub/v/credit_card_detector.svg)](https://pub.dartlang.org/packages/credit_card_detector)
 
 A dart package to display a horizontal bar of customisable toggle tabs. Supports iOS and Android.
 
-<img src="https://raw.githubusercontent.com/nhatlang19/credit_card_detector/master/preview/demo.gif" height="512">
+<img src="https://raw.githubusercontent.com/nhatlang19/flutter_credit_card_detector/master/preview/demo.gif" height="512">
 
 ## Installation
 Depend on it.
